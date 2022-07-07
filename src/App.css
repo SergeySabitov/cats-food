@@ -1,7 +1,32 @@
 .App {
   text-align: center;
+  background-repeat: repeat;
+}
+.header {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0;
+  
+}
+.items li {
+  transition: all 0.5s;
 }
 
+
+
+.header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.854);
+  font-size: 2rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
